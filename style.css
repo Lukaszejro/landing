@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: tahoma, arial;
+
+}
+
+header {
+    background: url('zakynthos_0.jpg') center;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 0;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+nav {
+    /*
+    height: 100%;
+    width: 100%;
+*/
+    background-color: aqua;
+    text-align: center;
+    position: sticky;
+    top: -1px;
+    font-size: 0;
+    margin: 0;
+
+}
+
+nav a {
+    /*
+    display: inline-block;
+    padding: 10px 25px;
+    border: 2px solid brown;
+    margin: 10px 15px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    text-transform: uppercase;
+    color: brown;
+*/
+    display: inline-block;
+    width: 24%;
+    height: 45px;
+    font-size: 25px;
+    font-family: arial;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    /*    padding: 10px 0;*/
+    line-height: 40px;
+    margin: 0;
+    padding: 5px 5px
+}
+
+nav a:hover {
+    color: white;
+    background-color: blueviolet;
+    transition: 0.6s;
+}
+
+.imgs {
+    width: 25%;
+}
+
+main {
+    height: 100%;
+    background-color: darkgray;
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: justify;
+    padding-top: 10px;
+}
+
+h4 {
+    font-size: 50px;
+    text-align: center;
+}
+
+article {
+    margin: 0;
+}
+
+button {
+    position: absolute;
+    top: 80%;
+    left: 45%;
+    height: 70px;
+    width: 260px;
+    padding: 20px;
+    background-color: blueviolet;
+    border: 3px solid darkred;
+    color: white;
+    font-size: 20px;
+    transition: 2s ease;
+    cursor: pointer
+}
+
+button:hover {
+
+    color: aquamarine;
+    border-color: blue;
+    background-color: blue;
+
+}
+
+.button {
+    animation: arrow 1s infinite linear
+}
